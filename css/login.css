@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.inner{
+    height: 75%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 68px -6px rgba(66, 65, 65, 0.5);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logoimg{
+    width:50%;
+    height: 100%;
+    background: #6333D6;
+}
+ .logoimg .photo img{
+     margin-bottom: 10%;
+ }
+.logo {
+    margin-top: 20px;
+    font-size: 28px;
+    display: flex;
+    margin-left: 3%;
+}
+.logo i{
+    margin-top: 5px;
+    color: #030b31;
+
+}
+.logo h2{
+   font-size: 30px;
+   font-family: 'Heebo', sans-serif;
+   padding-left: 15px;
+   color: #030b31;
+
+}
+.content_box{
+ 
+    padding: 50px;
+    width:50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.content_box .user-form .inputBx span{
+    font-size: 16px;
+    margin-bottom: 3%;
+    display: inline-block;
+    color: #38447A;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 3%;
+}
+.content_box .user-form .inputBx input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #6333D6;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+.content_box .user-form .inputBx input[type="submit"]
+{
+    background: #6333D6;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.content_box .user-form .remember{
+    margin-bottom: 10px;
+    margin-top: 13px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+.content_box .user-form .inputBx p{
+    color: #607d8b;
+    margin-top: 3%;
+   text-align: center;
+}
+.content_box .user-form .inputBx p a{
+    color: #ff4584;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+.user-form h1{
+    color: #38447A;
+    font-weight: 600;
+    font-size: 28px;
+
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.content_box .user-form h3{
+    text-align: center;
+    color: #607d8b;
+    margin: 20px 0 10px;
+    font-weight: 500;
+}
+.content_box .user-form .sci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_box .user-form .sci li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #607d8b;
+    border-radius: 50%;
+    margin: 0 7px;
+    cursor: pointer;
+}

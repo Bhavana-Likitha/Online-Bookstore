@@ -1,0 +1,145 @@
+body{
+background-color: #fff;
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+h1{
+  color: rgb(192, 14, 103);
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.logo {
+    margin-top: 5px;
+    font-size: 30px;
+    display: flex;
+    margin-left: 5%;
+}
+.logo i{
+    margin-top: 22px;
+    color: rgb(192, 14, 103);
+
+}
+.logo h1{
+   font-size: 30px;
+   font-family: 'Heebo', sans-serif;
+   padding-left: 15px;
+}
+.main-nav {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #31367B;
+    font-family: "Domine", serif;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.main-nav a {
+   
+    font-size: .99em;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.main-nav a:hover {
+  background-color: rgb(192, 14, 103);
+  color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  margin-right: 5%;
+  font-family: "Domine", serif;
+  font-family: "Open Sans", sans-serif;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  background-color: #6333D6;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+button:hover {
+  background-image: linear-gradient(315deg, #7e0f2e 0%, #5d30b1 74%);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.card {
+  background: #F4F4F6;
+
+  box-shadow: -10px -10px 15px rgb(236, 234, 234),
+  10px 10px 10px rgb(207, 202, 202); 
+  border-radius: 20PX;
+    transition: 0.3s;
+    width: 220px;
+    border-radius: 5px;
+    
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card .container button{
+    margin-left: 38px;
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 220px;
+    height: 300px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .pb{
+      display: flex;
+      overflow-y: hidden;
+  }
+  .pb .card {
+    margin: 10px;
+  }
+  .card .container h4,p{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  h2{
+    font-family: "Domine", serif;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 30px;
+  }
+  .card .container .btn button{
+    background-color: rgb(10, 10, 10);
+    width: 100px;
+    border-radius: 20px;
+  }
+p{
+  font-weight: 600;
+  text-align: center;
+}
+h4{
+  font-weight: bolder;
+  text-align: center;
+}

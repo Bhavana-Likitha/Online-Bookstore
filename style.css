@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+img{
+    width: 650px;
+    height: 650px;
+}
+.main_home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: rgb(192, 14, 103);
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  .logo {
+      margin-top: 20px;
+      font-size: 30px;
+      display: flex;
+      margin-left: 5%;
+  }
+  .logo i{
+      margin-top: 5px;
+      color: rgb(192, 14, 103);
+
+  }
+ .logo h1{
+     font-size: 30px;
+     font-family: 'Heebo', sans-serif;
+     padding-left: 15px;
+ }
+  .main-nav {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+  }
+  .main-nav a {
+      padding: 10px 15px;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      color: #31367B;
+      font-family: "Domine", serif;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold;
+  }
+ 
+  .main-nav a {
+     
+      font-size: .99em;
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+  
+  .main-nav a:hover {
+    background-color: rgb(192, 14, 103);
+    color: #fff;
+  }
+  
+  .header{
+      display: flex;
+      justify-content: space-between;
+  }
+  .text{
+    font-family: "Domine", serif;
+    font-family: "Open Sans", sans-serif;
+  }
+  .text p{
+      color: black;
+      font-size: 20px;
+      margin-top: 5%;
+      font-weight: 800;
+  }
+  .text h1{
+      font-size: 45px;
+  }
+  button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 5%;
+    font-family: "Domine", serif;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    background-color: #6333D6;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  button:hover {
+    background-image: linear-gradient(315deg, #7e0f2e 0%, #5d30b1 74%);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+ 
+  
